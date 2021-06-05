@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:icon="@drawable/house"
+        android:id="@+id/homemenu"
+        />
+    <item android:title="Foreign"
+        android:icon="@drawable/ic_baseline_flight_24"
+        android:id="@+id/Foregeinmenu"
+        />
+    <item android:title="Tech"
+        android:icon="@drawable/cpu"
+        android:id="@+id/techno"
+        />
+    <item android:title="Sports"
+        android:icon="@drawable/running"
+        android:id="@+id/sports"
+        />
+
+
+</menu>

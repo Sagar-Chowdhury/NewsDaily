@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDE8E1"
+    android:backgroundTint="#F6F4F4"
+    tools:context=".technology">
+
+    <ImageView
+        android:id="@+id/facebook"
+        android:layout_width="153dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:padding="5dp"
+        android:src="@drawable/faasas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/apple"
+        android:layout_width="146dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="28dp"
+        android:src="@drawable/apllw"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/amazon"
+        android:layout_width="188dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="84dp"
+        android:padding="5dp"
+        android:src="@drawable/amazon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/facebook" />
+
+    <ImageView
+        android:id="@+id/netflix"
+        android:layout_width="180dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="16dp"
+        android:padding="5dp"
+        android:src="@drawable/netflix"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apple" />
+
+    <ImageView
+        android:id="@+id/google"
+        android:layout_width="239dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="112dp"
+        android:src="@drawable/images"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/amazon"
+        app:layout_constraintVertical_bias="0.617" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="161dp"
+        android:layout_height="94dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/faang"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/google"
+        app:layout_constraintVertical_bias="0.714" />
+</androidx.constraintlayout.widget.ConstraintLayout>
